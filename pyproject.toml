@@ -1,0 +1,23 @@
+[project]
+name = "auto-rye"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Mai", email = "21039366+Mai0313@users.noreply.github.com" }
+]
+dependencies = [
+    "numpy>=1.25.1",
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
